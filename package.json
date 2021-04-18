@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "lang.js": "^1.1.14",
+    "path": "^0.12.7",
     "php-array-loader": "^1.0.1",
     "vue": "^2.6.10"
   },
