@@ -1,0 +1,47 @@
+{
+	"name": "vue-lang-for-laravel",
+	"version": "1.0.0",
+	"description": "This package supports vue template localization in Laravel application.",
+	"main": "dist/index.js",
+	"author": {
+		"email": "var.tonylee@gmail.com",
+		"name": "Tony Lee",
+		"url": "https://nanomedia.ca"
+	},
+	"scripts": {
+		"clean": "rm -rf dist",
+		"build": "yarn run clean && tsc",
+		"watch": "yarn run clean && tsc -w",
+		"release": "yarn build && standard-version --skip.changelog"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/maxtrunk/vue-lang-for-laravel.git"
+	},
+	"keywords": [
+		"localization",
+		"vue",
+		"laravel",
+		"webpack",
+		"loader"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/maxtrunk/vue-lang-for-laravel.git"
+	},
+	"homepage": "https://github.com/maxtrunk/vue-lang-for-laravel/blob/main/README.md",
+	"devDependencies": {
+		"@types/node": "^14.0.13",
+		"@types/webpack-env": "^1.14.1",
+		"standard-version": "^8.0.0",
+		"typescript": "^3.7.2"
+	},
+	"dependencies": {
+		"lang.js": "^1.1.14",
+		"php-array-loader": "^1.0.1",
+		"vue": "^2.6.10"
+	},
+	"peerDependencies": {
+		"laravel-mix": "^4.0.0 || ^5.0.0 || ^6.0.0"
+	}
+}
