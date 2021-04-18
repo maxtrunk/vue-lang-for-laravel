@@ -1,6 +1,6 @@
 {
   "name": "vue-lang-for-laravel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This package supports vue template localization in Laravel application.",
   "main": "dist/index.js",
   "author": "Tony Lee <var.tonylee@gmail.com> (https://nanomedia.ca)",
